@@ -1,0 +1,33 @@
+{
+  "name": "design-token-attributes",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "pre-commit": "lint-staged",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarthDB/design-token-context.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GarthDB/design-token-context/issues"
+  },
+  "homepage": "https://github.com/GarthDB/design-token-context#readme",
+  "author": "Garth Braithwaite <garthdb@gmail.com> (http://garthdb.com/)",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
+    "@moonrepo/cli": "^1.11.1",
+    "ava": "^5.3.1",
+    "clean-publish": "^4.2.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": "18.13.0"
+  },
+  "packageManager": "pnpm@8.6.11"
+}

@@ -1,0 +1,7 @@
+:root {
+  --global-color: red;
+  --not-deprecated: var(--global-color);
+  /* @deprecated(renamed: "--not-deprecated") */
+  --deprecated: var(--not-deprecated);
+  border: none;
+}
