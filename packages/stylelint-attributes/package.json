@@ -1,0 +1,19 @@
+{
+  "name": "stylelint-attributes",
+  "version": "0.1.0",
+  "description": "A stylelint plugin that checks css custom properties are used in the correct context.",
+  "type": "module",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarthDB/design-token-context.git"
+  },
+  "author": "Garth Braithwaite <garthdb@gmail.com> (http://garthdb.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GarthDB/design-token-context/issues"
+  },
+  "devDependencies": {
+    "stylelint": "^15.10.2"
+  }
+}

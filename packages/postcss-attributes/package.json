@@ -1,0 +1,30 @@
+{
+  "name": "postcss-attributes",
+  "version": "0.1.0",
+  "description": "A postcss plugin that processes custom property attribute comments for other plugins to use.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "rm -rf ./package && clean-publish",
+    "postpublish": "rm -rf ./package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarthDB/design-token-context.git"
+  },
+  "author": "Garth Braithwaite <garthdb@gmail.com> (http://garthdb.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GarthDB/design-token-context/issues"
+  },
+  "publishConfig": {
+    "directory": "package"
+  },
+  "clean-publish": {
+    "withoutPublish": true,
+    "tempDir": "package"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.27"
+  }
+}

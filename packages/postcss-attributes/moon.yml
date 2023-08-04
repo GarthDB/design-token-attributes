@@ -1,0 +1,19 @@
+type: library
+fileGroups:
+  tests:
+    - "./test/**/*"
+tasks:
+  test:
+    command:
+      - npx
+      - ava
+    inputs:
+      - "index.js"
+      - "@globs(tests)"
+    platform: node
+  test-watch:
+    command:
+      - ava
+      - --watch
+    local: true
+    platform: node
