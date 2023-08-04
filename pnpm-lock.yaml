@@ -41,6 +41,10 @@ importers:
     publishDirectory: package
 
   packages/stylelint-attributes:
+    dependencies:
+      postcss-attributes:
+        specifier: workspace:*
+        version: link:../postcss-attributes/package
     devDependencies:
       stylelint:
         specifier: ^15.10.2
