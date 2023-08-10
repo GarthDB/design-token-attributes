@@ -1,7 +1,10 @@
 :root {
-  /* @access(private: true) */
   --global-color: red;
   /* @deprecated */
   --deprecated: var(--global-color);
   border: none;
+}
+
+.className {
+  color: var(--deprecated);
 }

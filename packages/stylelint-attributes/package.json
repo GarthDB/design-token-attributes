@@ -14,10 +14,13 @@
   "bugs": {
     "url": "https://github.com/GarthDB/design-token-context/issues"
   },
-  "dependencies": {
-    "postcss-attributes": "workspace:*"
-  },
   "devDependencies": {
+    "postcss": "^8.4.27",
+    "postcss-reporter": "^7.0.5",
     "stylelint": "^15.10.2"
+  },
+  "peerDependencies": {
+    "postcss-attributes": "workspace:../postcss-attributes",
+    "stylelint": "^15.0.0"
   }
 }

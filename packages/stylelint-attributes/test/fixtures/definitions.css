@@ -1,0 +1,9 @@
+:root {
+  /* @access(private: true) */
+  --global-color: red;
+  --not-deprecated-color: var(--global-color);
+  /* @deprecated(renamed: "--not-deprecated-color") */
+  --deprecated-color: var(--not-deprecated-color);
+  /* @deprecated */
+  --deprecated-dimension: 2px;
+}
