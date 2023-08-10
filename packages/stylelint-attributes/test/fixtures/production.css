@@ -1,0 +1,8 @@
+.className {
+  color: var(--deprecated-color);
+  background-color: var(--global-color);
+  border: none;
+  padding: var(--deprecated-dimension);
+  margin: var(--deprecated-dimension) var(--deprecated-dimension) 0;
+  width: calc(100% - var(--deprecated-dimension));
+}

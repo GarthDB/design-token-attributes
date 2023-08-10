@@ -1,4 +1,4 @@
-const attributeRegex = /@(deprecated)(?:\(([^\)]+)\))?/;
+const attributeRegex = /@(\w+)(?:\(([^\)]+)\))?/;
 const parseAttribute = (comment) => {
   const matches = comment.match(attributeRegex);
   return matches[2]
@@ -19,10 +19,10 @@ const plugin = (opts = {}) => {
     postcssPlugin: pluginName,
     Declaration(decl, { result }) {
       if (
-        decl.prop.startsWith("--") &&
+        decl.variable &&
         decl.prev() &&
         decl.prev().type === "comment" &&
-        decl.prev().text.startsWith("@deprecated")
+        decl.prev().text.startsWith("@")
       ) {
         decl.deprecated = true;
         result.messages.push({

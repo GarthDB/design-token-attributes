@@ -5,8 +5,6 @@ import { fileURLToPath } from "url";
 import { resolve } from "path";
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 
-console.log(__dirname);
-
 import { readFile } from "node:fs/promises";
 
 test("plugin should process css deprecated comment", async (t) => {
