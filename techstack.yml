@@ -2,7 +2,7 @@ repo_name: GarthDB/design-token-attributes
 report_id: b0db8e90318ecb702ec070a1c141b43a
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-11T00:09:51+00:00'
+timestamp: '2024-02-29T19:26:30+00:00'
 requested_by: GarthDB
 provider: github
 branch: main
@@ -55,7 +55,7 @@ tools:
   last_updated_by: garthdb
   last_updated_on: 2023-08-04 00:32:16.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 3.0.0
   license: MIT
